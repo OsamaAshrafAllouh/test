@@ -16,6 +16,12 @@
         flex-direction: column;
         text-align: center;
     }
+    .contact .contact_content .text{
+        font-size: 25px;
+    }
+    .contact .contact_content .email{
+        font-size: 25px;
+    }
 }
 /*medium*/
 @media (min-width :992px){

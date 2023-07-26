@@ -8,7 +8,9 @@
 box-sizing: border-box;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
@@ -207,6 +209,10 @@ max-width: 100%;
 .Portfolio .port_content .card img{
     max-width: 100%;
 }
+.Portfolio .port_content .card img:hover{
+    transform: scale(1.05,1.1);
+    transition: .3s;
+}
 .Portfolio .port_content .card .port_text{
     padding: 20px;
 }
@@ -272,4 +278,49 @@ max-width: 100%;
 .About .about_content .about_text p:last-of-type{
     line-height: 1;
     color: #777;
+}
+.contact{
+    padding: 60px 0;
+    background-color: #f6f6f6;
+}
+.contact .contact_content{
+    padding: 60px 0;
+    text-align: center;
+}
+.contact .contact_content .text{
+    color: var(--second-color);
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom:15px ;
+}
+.contact .contact_content .email{
+    display: block;
+    color: var(--main-color);
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.contact .contact_content .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.contact .contact_content .social i{
+    padding-top:18px ;
+    margin-left: 10px;
+    color: var(--second-color);
+}
+.footer{
+    background-color: var(--second-color);
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer span{
+    color:var(--main-color);
+    font-weight: bold;
 }
