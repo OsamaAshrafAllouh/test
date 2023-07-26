@@ -16,6 +16,10 @@
         flex-direction: column;
         text-align: center;
     }
+    .Portfolio .port_content .card img:hover{
+        transform: scale(1,1);
+        transition: .3s;
+    }
     .contact .contact_content .text{
         font-size: 25px;
     }
